@@ -1,0 +1,104 @@
+:root {
+    --preto: #1E1E24;
+    --branco: #EFF1ED;
+    --bege: #EDB183;
+    --verde: #016C42;
+    --vermelho: #CF3132;
+}
+
+html,
+body,
+#home {
+    height: 100%;
+    overflow-x: hidden;
+    /*FAZ COM QUE A BARRA DE BAIXO N APAREÇA*/
+}
+
+/*topo*/
+header {
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
+
+.logo {
+    font-size: 2em;
+    padding-right: 30px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-size: .9em;
+    font-weight: 500;
+    padding-bottom: 5px;
+    margin-left: 5px;
+}
+
+.nav-link {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.nav-link:hover {
+    border-bottom-color: var(--preto);
+    color: var(--vermelho);
+}
+
+.activee {
+    color: var(--vermelho);
+    border-bottom-color: var(--preto);
+}
+
+.reservas{
+    color: var(--preto);
+    padding: 10px;
+}
+
+.reservas a {
+    color: var(--preto);
+    text-decoration: none;
+}
+
+.social {
+    font-size: 13px;
+}
+
+.fa-stack {
+    color: var(--vermelho);
+}
+
+.fa-stack:hover {
+    color: #8e1f1f;
+    transition: .2s;
+}
+
+.fa-whatsapp,
+.fa-facebook,
+.fa-instagram {
+    color: var(--branco);
+}
+/*fim topo*/
+
+
+main {
+    height: 91%;
+}
+.caixa1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .caixa1 {
+    background-image: url(img/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  
