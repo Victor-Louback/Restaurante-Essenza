@@ -198,7 +198,7 @@ footer .btn i{
 }
 
 .copyrigth{
-    padding: 30px 0px 10px 0px;
+    padding: 20px 0px 10px 0px;
     margin: 0px;
 }
 
@@ -225,8 +225,8 @@ footer .btn i{
 
 }
 
-@media (max-height: 1550px) {
+@media (max-width: 1550px) {
     .carousel-item img{
-        min-height:950px;
+        min-height:750px;
     }
 }
