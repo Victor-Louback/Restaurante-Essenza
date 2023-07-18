@@ -153,7 +153,7 @@ main h5 {
 
 .txt-historia {
     border: 1px solid var(--bege);
-    padding: 20vh 3vw;
+    padding: 15vh 3vw;
 
 }
 
@@ -282,5 +282,9 @@ footer .btn i{
 @media (max-width: 1550px) {
     .carousel-item img{
         min-height:750px;
+    }
+    .txt-historia {
+        padding: 10vh 3vw;
+    
     }
 }
