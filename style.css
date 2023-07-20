@@ -6,6 +6,7 @@
     --vermelho: #CF3132;
 }
 
+
 html,
 body,
 #home {
@@ -113,6 +114,26 @@ main h5 {
 }
 
 /*fim main*/
+/*main o restaurante*/
+.historia {
+    background: url(img/local.png) no-repeat center;
+    background-size: cover;
+    height: 450px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .grid-container {
     display: grid;
@@ -152,7 +173,7 @@ main h5 {
 
 
 .txt-historia {
-    border: 1px solid var(--bege);
+
     padding: 15vh 3vw;
 
 }
