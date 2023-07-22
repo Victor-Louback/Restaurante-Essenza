@@ -59,7 +59,7 @@ header {
     padding: 10px;
 }
 
-.reservas small{
+.reservas small {
     font-weight: 600;
     color: var(--verde);
 }
@@ -116,12 +116,20 @@ main h5 {
 /*fim main*/
 /*main o restaurante*/
 .historia {
-    background: url(img/local.png) no-repeat center;
+    background: url(img/local.png);
+    height: 50%;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
-  }
-  
+    background-position: bottom;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
 
+.texto-historia{
+    font-size: 1.5em;
+    padding: 90px 0;
+}
 
 
 
@@ -142,7 +150,7 @@ main h5 {
 
 .item {
     padding: 30px;
-    max-height:601px ;
+    max-height: 601px;
 }
 
 .grid-1 {
@@ -178,15 +186,15 @@ main h5 {
 
 }
 
-.botao-carousel{
+.botao-carousel {
     border: 2px solid var(--bege);
     width: 200px;
-    margin:40px auto;
+    margin: 40px auto;
 }
 
-.carousel-inner{
+.carousel-inner {
     min-height: 600px;
-    max-height:601px;
+    max-height: 601px;
 }
 
 
@@ -207,29 +215,29 @@ main h5 {
 
 
 
-footer{
+footer {
     padding: 60px 0px;
     background: var(--preto);
     color: var(--bege);
 }
 
-footer p{
+footer p {
     padding: 0;
     margin: 0;
 }
 
 
-.linha{
+.linha {
     border-top: 1px solid var(--bege);
     width: 180px;
-    margin: 20px 0px ;
+    margin: 20px 0px;
 }
 
-footer .btn i{
+footer .btn i {
     color: #016C42;
 }
 
-.copyrigth{
+.copyrigth {
     padding: 20px 0px 10px 0px;
     margin: 0px;
 }
@@ -249,19 +257,21 @@ footer .btn i{
     .grid-2 {
         background-image: none;
     }
+
     .txt-historia {
         padding: 3vh 3vw;
-    
+
     }
+
     footer .btn {
-       padding: 5px;
-       font-size: 15px;
+        padding: 5px;
+        font-size: 15px;
     }
 }
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-      .grid-container {
+    .grid-container {
         display: flex;
         flex-direction: column;
     }
@@ -273,39 +283,41 @@ footer .btn i{
 
     .txt-historia {
         padding: 5vh 3vw;
-    
+
     }
+
     .item {
         padding: 30px;
         min-height: 300px;
     }
-    
-    
+
+
 }
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-     .txt-historia {
+    .txt-historia {
         padding: 10vh 3vw;
-    
+
     }
-    
+
 }
 
 @media (min-width: 992px) and (max-width: 1200.98px) {
-     .txt-historia {
+    .txt-historia {
         padding: 15vh 3vw;
-    
+
     }
 }
 
 
 @media (max-width: 1550px) {
-    .carousel-item img{
-        min-height:750px;
+    .carousel-item img {
+        min-height: 750px;
     }
+
     .txt-historia {
         padding: 10vh 3vw;
-    
+
     }
 }
