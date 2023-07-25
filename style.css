@@ -128,10 +128,18 @@ main h5 {
 
 .texto-historia{
     font-size: 1.5em;
-    padding: 90px 0;
+    padding: 90px 0 60px 0;
 }
 
+.galeria{
+    padding-bottom: 90px;
+}
 
+.galeria a img{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
 
 
 
