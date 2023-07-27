@@ -2,6 +2,7 @@
     --preto: #1E1E24;
     --branco: #EFF1ED;
     --bege: #EDB183;
+    --bege-2:#e1ddd3;
     --verde: #016C42;
     --vermelho: #CF3132;
 }
@@ -13,11 +14,11 @@ body,
     height: 100%;
     overflow-x: hidden;
     /*FAZ COM QUE A BARRA DE BAIXO N APAREÇA*/
+    background-color: var(--bege-2);
 }
 
 /*topo*/
 header {
-    background-color: var(--branco);
     color: var(--preto);
 }
 
@@ -129,6 +130,7 @@ main h5 {
 .texto-historia{
     font-size: 1.5em;
     padding: 90px 0 60px 0;
+    background: var(--bege-2);
 }
 
 .galeria{
@@ -140,13 +142,7 @@ main h5 {
     height: 250px;
 }
 
-
-
-
-
-
-
-
+/*fim restaurante*/
 
 
 
