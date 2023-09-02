@@ -115,34 +115,6 @@ main h5 {
 }
 
 /*fim main*/
-/*main o restaurante*/
-.historia {
-    background: url(img/local.png);
-    height: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-}
-
-.texto-historia{
-    font-size: 1.5em;
-    padding: 90px 0 60px 0;
-    background: var(--bege-2);
-}
-
-.galeria{
-    padding-bottom: 90px;
-}
-
-.galeria a img{
-    width: 250px;
-    height: 250px;
-}
-
-/*fim restaurante*/
 
 
 
