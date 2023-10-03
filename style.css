@@ -17,6 +17,11 @@ body,
     background-color: var(--bege-2);
 }
 
+*::selection{
+    background-color: var(--bege);
+    color: var(--verde);
+}
+
 /*topo*/
 header {
     color: var(--preto);
